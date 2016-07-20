@@ -1,0 +1,15 @@
+ACTIVEMQ入门级demo.
+    1, 熟悉mq
+    2, 熟悉Intellij IDEA 的使用方法
+
+项目中注意事项
+    因为是在单机上测试，所以需要开启两个eclipse，每一个eclipse都有自身的workspace。我们在eclipse1中运行Receiver，在eclipse2中运行Sender。
+    1.下载ActiveMQ
+
+    去官方网站下载：http://activemq.apache.org/
+
+    2.运行ActiveMQ
+
+    解压缩apache-activemq-5.5.1-bin.zip，然后双击apache-activemq-5.5.1\bin\activemq.bat运行ActiveMQ程序。
+
+    启动ActiveMQ以后，登陆：http://localhost:8161/admin/，创建一个Queue，命名为FirstQueue。
